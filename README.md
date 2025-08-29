@@ -35,4 +35,4 @@ When an LLM key is provided, the app prompts the model to return a strict JSON o
 To apply visual style, the app instantiates `Presentation(template_file)` via `python-pptx`, so all new slides are added by reusing the template’s masters and layouts. It attempts to pick a title/content layout for most slides and copies paragraph-level properties (font size, bold, bullet levels) when possible. The app scans the uploaded template for picture shapes and reuses a few of them as decorative images on generated slides to preserve the brand feel, without creating any AI images.
 
 
-Finally, the app writes slides using the chosen layout, sets title and bullets, optionally adds speaker notes from the outline, and offers a download button for the resulting `.pptx`.
+Finally, the app writes slides using the chosen layout, sets title and bullets, optionally adds speaker notes, and offers a preview and a download button for the resulting `.pptx`.
